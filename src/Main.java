@@ -19,8 +19,17 @@ public class Main {
         if (temperature > 5) {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
         }
-        
+
+        //task 3
+        System.out.println("Task 3");
+        int speed = 100;
+        if (speed > 60) {
+            System.out.println("Если скорость " + speed + ", придется заплатить штраф");
+        } else {
+            System.out.println("Если скорость " + speed + ", можно ездить спокойно");
+        }
     }
 }
+
 
 
