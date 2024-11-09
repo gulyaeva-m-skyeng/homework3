@@ -28,6 +28,26 @@ public class Main {
         } else {
             System.out.println("Если скорость " + speed + ", можно ездить спокойно");
         }
+
+       //task 3
+        System.out.println("Task 3");
+        age = 12;
+        if (age >= 2 && age <= 6) {
+            System.out.println("Если человеку " + age + ", то ему нужно ходить в детский сад");
+        }
+        if (age >= 7 && age <= 17) {
+                System.out.println("Если человеку " + age + ", то ему нужно ходить в школу");
+        }
+        if (age >= 18 && age <= 24) {
+            System.out.println("Если человеку " + age + ", то его место в университете");
+        }
+        if (age >= 18 && age <= 24) {
+            System.out.println("Если человеку " + age + ", то его место в университете");
+        }
+        if (age > 24) {
+            System.out.println("Если человеку " + age + ", то ему пора ходить на работу");
+        }
+
     }
 }
 
