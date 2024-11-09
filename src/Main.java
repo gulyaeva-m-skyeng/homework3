@@ -12,7 +12,7 @@ public class Main {
 
         //task 2
         System.out.println("Task 2");
-        int temperature = 7;
+        int temperature = 1;
         if (temperature < 5) {
             System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
         } else {
