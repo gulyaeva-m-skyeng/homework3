@@ -12,11 +12,10 @@ public class Main {
 
         //task 2
         System.out.println("Task 2");
-        int temperature = 3;
+        int temperature = 10;
         if (temperature < 5) {
             System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
-        }
-        if (temperature > 5) {
+        } else {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
         }
 
@@ -31,15 +30,12 @@ public class Main {
 
         //task 4
         System.out.println("Task 4");
-        age = 12;
+        age = 25;
         if (age >= 2 && age <= 6) {
             System.out.println("Если человеку " + age + ", то ему нужно ходить в детский сад");
         }
         if (age >= 7 && age <= 17) {
             System.out.println("Если человеку " + age + ", то ему нужно ходить в школу");
-        }
-        if (age >= 18 && age <= 24) {
-            System.out.println("Если человеку " + age + ", то его место в университете");
         }
         if (age >= 18 && age <= 24) {
             System.out.println("Если человеку " + age + ", то его место в университете");
