@@ -29,14 +29,14 @@ public class Main {
             System.out.println("Если скорость " + speed + ", можно ездить спокойно");
         }
 
-       //task 3
-        System.out.println("Task 3");
+        //task 4
+        System.out.println("Task 4");
         age = 12;
         if (age >= 2 && age <= 6) {
             System.out.println("Если человеку " + age + ", то ему нужно ходить в детский сад");
         }
         if (age >= 7 && age <= 17) {
-                System.out.println("Если человеку " + age + ", то ему нужно ходить в школу");
+            System.out.println("Если человеку " + age + ", то ему нужно ходить в школу");
         }
         if (age >= 18 && age <= 24) {
             System.out.println("Если человеку " + age + ", то его место в университете");
@@ -48,10 +48,10 @@ public class Main {
             System.out.println("Если человеку " + age + ", то ему пора ходить на работу");
         }
 
-        //task 4
-        System.out.println("Task 4");
+        //task 5
+        System.out.println("Task 5");
 
-        age= 8;
+        age = 8;
         if (age < 5) {
             System.out.println("Если возраст равен " + age + ", то он не может кататься на аттракционе.");
         }
@@ -62,8 +62,26 @@ public class Main {
             System.out.println("Если возраст равен " + age + ", то он может кататься без сопровождения взрослого.");
         }
 
+        //task 6
+        System.out.println("Task 6");
+        int places = 102;
+        int sitPlaces = 60;
+        int people = 20;
+
+        if (people < sitPlaces) {
+            System.out.println("В вагоне есть сидячие места");
+        }
+        if (people >= sitPlaces && people < places) {
+            System.out.println("В вагоне есть стоячие места");
+    }
+    if (people >= places) {
+        System.out.println("В вагоне нет мест");
+    }
+
     }
 }
+
+
 
 
 
