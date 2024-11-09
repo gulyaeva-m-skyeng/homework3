@@ -73,13 +73,29 @@ public class Main {
         }
         if (people >= sitPlaces && people < places) {
             System.out.println("В вагоне есть стоячие места");
-    }
-    if (people >= places) {
-        System.out.println("В вагоне нет мест");
-    }
+        }
+        if (people >= places) {
+            System.out.println("В вагоне нет мест");
+        }
 
+        //task 7
+        System.out.println("Task 7");
+        int one = 40;
+        int two = 6;
+        int three = 20;
+        if (one >= two && one >= three) {
+            System.out.println("Максимальное число в переменной one, равно " + one);
+        } else {
+            if (two >= three) {
+                System.out.println("Максимальное число в переменной two, равно " + two);
+            } else {
+                System.out.println("Максимальное число в переменной three, равно " + three);
+            }
+        }
     }
 }
+
+
 
 
 
